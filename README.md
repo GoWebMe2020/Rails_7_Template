@@ -9,6 +9,9 @@ This is a template to demonstrate how to setup a Rails backend with a ReactJS fr
 * Rails 7 (https://guides.rubyonrails.org/7_0_release_notes.html)
 * Postgres (https://www.postgresql.org | )
 * Dotenv (https://github.com/bkeepers/dotenv)
+* Devise (https://github.com/heartcombo/devise)
+* RSpec (https://github.com/rspec/rspec-rails)
+* Factory Bot Rails (https://github.com/thoughtbot/factory_bot_rails)
 
 ## Setup
 
