@@ -12,6 +12,7 @@ This is a template to demonstrate how to setup a Rails backend with a ReactJS fr
 * Devise (https://github.com/heartcombo/devise)
 * RSpec (https://github.com/rspec/rspec-rails)
 * Factory Bot Rails (https://github.com/thoughtbot/factory_bot_rails)
+* Faker (https://github.com/faker-ruby/faker)
 
 ## Setup
 
