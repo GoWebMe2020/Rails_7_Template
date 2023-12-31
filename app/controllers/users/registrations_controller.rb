@@ -6,14 +6,20 @@ class Users::RegistrationsController < Devise::RegistrationsController
     super do |user|
       if user.persisted?
         user.update(token: generate_token(user))
-        render_json_response(user) and return
+        render_successful_json_response(user) and return
+      else
+        render_unsuccessful_json_response(user) and return
       end
     end
   end
 
   private
 
-  def render_json_response(user)
+  def render_successful_json_response(user)
     render json: { user: user, token: user.token }, status: :created
+  end
+
+  def render_unsuccessful_json_response(user)
+    render json: { error: user.errors.full_messages }, status: :unprocessable_entity
   end
 end

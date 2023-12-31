@@ -10,6 +10,7 @@ This is a template to demonstrate how to setup a Rails backend with a ReactJS fr
 * Postgres (https://www.postgresql.org | )
 * Dotenv (https://github.com/bkeepers/dotenv)
 * Devise (https://github.com/heartcombo/devise)
+* JWT (https://github.com/jwt/ruby-jwt)
 * RSpec (https://github.com/rspec/rspec-rails)
 * Factory Bot Rails (https://github.com/thoughtbot/factory_bot_rails)
 * Faker (https://github.com/faker-ruby/faker)
@@ -21,7 +22,7 @@ This is a template to demonstrate how to setup a Rails backend with a ReactJS fr
 2. To Create New Rails Project:
 
   ```bash
-    $ rails new myapp --api -d postgresql
+    $ rails new <app_name> --api -d postgresql
   ```
 This creates a new Rails API app with PostgreSQL as the database.
 
